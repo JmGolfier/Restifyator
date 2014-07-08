@@ -1,0 +1,26 @@
+{
+    "author": "Jean-Matthieu Golfier",
+    "name": "Restifyator",
+    "description": "little and simple rest server",
+    "version": "1.0.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/JmGolfier/Restifyator.git"
+    },
+    "main": "./server",
+    "keywords": [
+        "rest",
+        "server",
+        "restful",
+        "simple",
+        "little"
+    ],
+    "dependencies": {
+        "express": "3.4.8",
+        "mongodb": "*",
+        "bson":"0.2.7"
+    },
+    "engines": {
+        "node": "*"
+    }
+}
